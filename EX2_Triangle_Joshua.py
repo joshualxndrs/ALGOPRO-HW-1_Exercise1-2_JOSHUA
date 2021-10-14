@@ -14,6 +14,4 @@ if checkValidity(a, b, c):
     P = a + b + c
     print("The perimeter for this triangle is ", P)
 else:
-    print("This is invalid, this is not a triangle.")
-
-
+    print("ERROR. Perimeter could not be calculated.")
