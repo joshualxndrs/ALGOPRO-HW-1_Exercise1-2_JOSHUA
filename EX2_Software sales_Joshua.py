@@ -1,3 +1,11 @@
+#Price is 99
+#Input package quantity
+#Quantity should be greater than 0
+#Adjust discount according to quantity purchased
+#Total package = quantity x price
+#discount_amount = Total package x discount
+#grand total = Total package - discount_amount
+
 price = 99.00
 
 package_quantity = float(input("Enter the number of packages purchased: "))

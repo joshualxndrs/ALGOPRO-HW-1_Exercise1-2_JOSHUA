@@ -1,3 +1,8 @@
+#Input Subtotal
+#Input tip amount in percentage (%)
+#Formula --> tip = (tip_amount/100)*subtotal
+#Total = Subtotal + tip
+
 subtotal = float((input("Enter the sub-total : $")))
 tip_amount = float(input("Enter tip amount (in %) : "))
 tip = (tip_amount/100)*subtotal

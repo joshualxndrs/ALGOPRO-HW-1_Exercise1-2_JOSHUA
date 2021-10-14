@@ -1,3 +1,9 @@
+#input edge1,edge2,edge3
+#two edges are bigger than the remainder = valid triangle
+#two edges are smaller than the remainder = invalid triangle
+#Perimeter Formula is P = a + b + c
+#Output is Perimeter
+
 def checkValidity(a, b, c):
 
     if (a + b <= c) or (a + c <= b) or (b + c <= a ):

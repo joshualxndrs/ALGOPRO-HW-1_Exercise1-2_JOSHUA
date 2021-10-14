@@ -1,3 +1,7 @@
+#Input side length of Hexagon
+#Formula = ((3 * math.sqrt(3)) * (length** 2)) / 2
+#Output = Area of hexagon
+
 import math
 
 length = float(input("Insert the side length of the hexagon: "))

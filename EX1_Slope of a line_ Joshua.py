@@ -1,3 +1,7 @@
+#Input x1, x2, y1, y2
+#Formula = slope = (y2-y1) / (x2-x1)
+#Output = Slope --> round to 5
+
 print("Hello, welcome to the slope calculator, please follow the steps below...")
 
 x1 = float(input("Enter the number for X1: "))

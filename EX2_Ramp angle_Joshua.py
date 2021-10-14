@@ -1,3 +1,8 @@
+#Input mass, Input Force
+#C = 9.8
+#Formula for angle --> angle = f/(m*c)
+#Asin(angle) --> degrees
+
 import math
 
 m = float(input("Please enter the mass of the cart (unit in kg): "))
