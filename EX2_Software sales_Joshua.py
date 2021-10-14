@@ -21,7 +21,7 @@ else:
     total_package = package_quantity * price
     discount_amount = total_package * discount
     grandtotal = total_package - discount_amount
-    display = "Total package = $%2.2f"%package_quantity + \
+    display = "Total package = $%2.2f"%total_package + \
               "\nDiscount Percentage = " + format(discount, '.0%') + \
               "\nDiscount amount = $%2.2f"%discount_amount + \
               "\nGrand total  = $%2.2f"%grandtotal
